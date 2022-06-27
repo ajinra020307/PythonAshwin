@@ -3,7 +3,6 @@
 
 file = open('document.txt','r')
 content = file.read()
-
 newString = ''
 # change a to b.
 for x in range(0,len(content)):

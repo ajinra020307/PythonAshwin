@@ -54,7 +54,7 @@ i = l1.index(4)
 l1.sort(reverse=True)
 
 
-# pop -> remove last eleement of a list
+# pop -> remove last element of a list
 l1.pop()
 
 # del -> delete an element
