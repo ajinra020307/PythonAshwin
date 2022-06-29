@@ -11,3 +11,7 @@ print(content)
 file2 = open('hello.txt','w+')
 file2.write('Hello world')
 
+# append to file
+
+file3 = open('sample.txt','a')
+file3.write('Hello world')

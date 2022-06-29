@@ -67,3 +67,20 @@ l3 = [1,2,3,3]
 l3.remove(3)
 
 
+# list comphrehension
+
+l4 = [1,2,3,4,5,6]
+
+l5 = [ x + 2 for x in l4]
+
+# for x in l4:
+#     l5.append(x + 2)
+
+
+# concate
+
+x = [1,2,3,4,5,6]
+y = [2,4]
+
+z = x + y
+print(z)
